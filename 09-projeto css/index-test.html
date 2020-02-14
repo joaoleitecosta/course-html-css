@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--doctype informa a versao do html que deve ser reinderizada-->
+<html lang="pt-br">
+  <head>
+    <title>pagina de exemplo de estrutura basica</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Joao Leite" />
+    <meta name="description" content="lista de documentos" />
+    <meta name="keywords" content="HTML5, CSS" />
+    <style>
+      body{
+        margin: auto;
+        max-width: 60%;
+  
+      }
+      #header {
+        background-image: url(imagens/bg-3.jpg);
+        background-attachment: local;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 560px;
+        background-position: center;        
+       
+      }
+      p b {
+        font-size: 60px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+      }
+      ul {
+        display: flex;
+        list-style-type: none;
+        direction: rtl;
+      }
+      li {
+        background-color: rgb(79, 84, 88);
+        margin: 5px;
+        padding: 15px;
+        border: 1px solid white;
+        color: white;
+      }
+      #descricao {
+        font-size: 20px;
+        background-color: black;
+        padding: 10px;
+        border-bottom: white 1px solid;
+        max-width: 25%;
+        text-align: center;
+        margin: auto;
+        color: white;
+      }
+      #cards {
+        background-color: white;
+        display: flex;
+        width: 80%;
+        margin: 20px auto;
+      }
+      .card {
+        margin: 15px auto;
+        height: 180px;
+        width: 250px;
+        background-color: rgb(63, 61, 61);
+        text-align: left;
+      }
+      .acao {
+        margin-left: 10px;
+        font-size: 15px;
+        margin-top: 10px;
+      }
+      .titulo {
+        background-color: white;
+        width: 80%;
+        margin: auto;
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+      #titulo {
+        background-color: rgb(223, 228, 228);
+        font-size: 30px;
+        color: black;
+        margin: 10px;
+        padding: 7px 15px;
+        box-shadow: 0 0 5px 1px rgb(0, 0, 0, 0.2);
+      }
+      .paragrafo {
+        color: black;
+        font-size: 18px;
+        padding-left: 10px;
+      }
+      footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        background-color: rgb(119, 124, 128);
+
+        margin: auto;
+        font-size: 14px;
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div>
+        <ul>
+          <li>INICIO</li>
+          <li>QUEM SOU EU</li>
+          <li>CONTATO</li>
+        </ul>
+      </div>
+      <div>
+        <p><b>CURSO WEB</b></p>
+        <p><b>FUNDAMENTOS</b></p>
+      </div>
+      <div>
+        <p id="descricao">Aprenda HTML, CSS, e Javascript</p>
+      </div>
+    </div>
+    <div id="cards">
+      <div class="card">
+        <img src="./imagens/card_01.png" alt="selectores" />
+        <p class="acao">SELECTORES</p>
+      </div>
+      <div class="card">
+        <img src="./imagens/card_02.jpg" alt="posicionamento" />
+        <p class="acao">POSICIONAMENTO</p>
+      </div>
+      <div class="card">
+        <img src="./imagens/card_03.jpg" alt="fontes e icones" />
+        <p class="acao">FONTES E ICONES</p>
+      </div>
+    </div>
+    <div class="titulo">
+      <p id="titulo">titulo</p>
+      <p class="paragrafo">Primeiro parágrafo de exemplo</p>
+      <p class="paragrafo">Segundo paragrafo de exemplo</p>
+    </div>
+    <footer>
+      <p>Copyright @ 2016</p>
+    </footer>
+  </body>
+</html>

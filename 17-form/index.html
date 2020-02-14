@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--doctype informa a versao do html que deve ser reinderizada-->
+<html lang="pt-br">
+
+<head>
+  <title>pagina de exemplo de formulario</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="Joao Leite" />
+  <meta name="description" content="lista de documentos" />
+  <meta name="keywords" content="HTML5, CSS" />
+
+</head>
+
+<body>
+  <h1>Exemplo de formulario</h1>
+  <form method="GET" target="_blank" class="formLogin">
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <label>Email</label>
+      <input type="email" required="true"  maxlength="3"/>
+      <br>
+      <label>Numero de filhos</label>
+      <input type="number" min="0" max="10" />
+      <br>
+      <label>nascimento</label>
+      <input type="date" min='2020-02-07' max="1981-01-05" locate=pt-br>
+      <br>
+      <p>Sexo</p>
+      <label>Masculino
+        <input type="radio" name="sexo" value="M" />
+      </label>
+      <label>Feminino
+      <input type="radio" name="sexo" value="F" />
+    </label>
+      <br>
+      <label>Estado</label>
+      <select>
+         <option value="0">Escolha o estado</option>
+         <option value="SP">São Paulo</option>
+         <option value="RJ">Rio de Janeiro</option>
+         <option value="MA">Maranhão</option>
+      </select>
+      <br>
+    </fieldset>
+      <fieldset>
+        <legend>Area de interesse</legend>
+         <label>HTML
+         <input type="checkbox" name="html" value="html"/>
+        </label>
+        <label>CSS
+          <input type="checkbox" name="css" value="css"/>
+        </label>
+        <label>Javascript
+          <input type="checkbox" name="JS" value="JS"/>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Messagem</legend>
+        <textarea name="msg" cols="50" rows="10" readonly="true"
+        style="resize: none">Aqui entra o texto do contrato
+        </textarea>
+        <br>
+        <label>Li e Aceito
+          <input type="checkbox" checked/>
+        </label>
+        <br>
+        <input type="range" min="0" max="5" step="1"/>
+        <br>
+        <input type="time"/>
+        <br>
+        <input type="color">
+        <br>
+        <select multiple>
+          <option>Opcao 1</option>
+          <option>Opcao 2</option>
+          <option>Opsao 3</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Arquivos</legend>
+        <legend>Escolha um arquivo</legend>
+         <input type="file" name="file" accept=".jpeg, .png, .pdf" multiple/>
+      </fieldset>
+      <fieldset>
+        <legend></legend>
+      </fieldset>
+      <button type="submit">enviar</button>
+      <button type="reset">Limpar</button>
+      <button type="button">Fazer nada</button>
+    
+  </form>
+
+</body>
+
+</html>

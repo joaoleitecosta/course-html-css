@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--doctype informa a versao do html que deve ser reinderizada-->
+<html lang="pt-br">
+  <head>
+    <title>pagina de exemplo de formulario</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Joao Leite" />
+    <meta name="description" content="lista de documentos" />
+    <meta name="keywords" content="HTML5, CSS" />
+    <style>
+      input{
+        margin: 0;
+        padding: 0;
+        background-color: #f4faa6;
+        border: 1px solid rgb(219, 233, 20);
+        border-radius: 2px;
+
+      }
+      body{
+        background-repeat: no-repeat;
+        background-position: center;  
+        background-attachment: fixed;     
+        background-image: -webkit-linear-gradient(bottom, #6B77A1 0%, #737EA5 3%, #9599B3 15%, #B1B0BF 28%, #C7C1C8 41%, #D6CDCF 57%, #DFD5D3 74%, #E2D7D4 100%);
+      }
+      .formLogin{
+        width: 250px;
+        margin: 70px auto 0;
+        font-family: sans-serif;
+        background-color: #fff;
+      }
+      .formLogin fieldset{
+        border: none;
+      }
+      #user, #password, #btn {
+        display:inline-block;
+        width: 100%;
+        font-size: 18px;
+        box-sizing: border-box;
+       
+      }
+      #user:focus, #password:focus{
+         border: #97ccce solid 2px;
+       }
+      #btn{
+        margin-top: 15px;
+      }
+      label{
+        margin-bottom: 5px;
+        padding-top: 15px;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exemplo de formulario</h1>
+    <form method="POST" action="http://google.com.br/search" target="_blank" class="formLogin">
+     <fieldset>
+
+       <label for="user">Digite seu usuario</label>
+       <input id="user" type="text" name="user" autofocus/>
+       <label for="password">Digite a senha</label>
+       <input id="password" type="password"/>
+       <button id="btn" type="submit">Enviar</button>
+     </fieldset>
+    </form>
+   
+  </body>
+</html>

@@ -1,0 +1,124 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html body,
+#root {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: tahoma, arial, sans-serif;
+  width: 1024px;
+  margin: auto;
+}
+header{
+  position: relative;
+  background-color: #343758;
+  height: 50px;
+}
+nav {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  height: 100%;
+
+}
+header img{
+  padding: 8px 0 0 145px;
+}
+ul {
+  float: right;
+  text-align: right;
+  margin-right: 50px;
+}
+li {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 13px;
+}
+li a {
+  text-decoration: none;
+  color: rgb(124, 124, 148);
+  font-weight: 100;
+  font-size: 14px;
+  transition: color 0.4s linear;
+  letter-spacing: 5px;
+}
+li a:hover {
+  color: white;
+}
+
+#img-topo {
+  width: 100%;
+}
+.description {
+  text-align: center;
+  margin-top: 60px;
+}
+.description p {
+  margin: 30px auto;
+  width: 80%;
+  font-size: 16px;
+  line-height: 2;
+  text-align: center;
+  font-weight: lighter;
+  color: #555;
+}
+.gallery {
+  display: flex;
+  margin: auto;
+  padding: 40px 0;
+  align-items: center;
+  justify-content: center;
+}
+.model {
+  padding: 0 10px;
+  text-align: center;
+}
+.model h3 {
+  text-transform: uppercase;
+  padding: 8px;
+}
+.card {
+  background-image: url("../imagens/bg_detalhe.png");
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  height: 500px;
+  color: white;
+  padding: 90px 180px 90px 90px;
+}
+.card h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.card p {
+  margin-top: 40px;
+  margin-right: 130px;
+  width: 85%;
+  line-height: 1.8;
+}
+.call {
+  text-align: center;
+  padding: 40px;
+  color: rgb(74, 74, 173);
+}
+.maps iframe {
+  border: 0;
+}
+footer {
+  margin: 50px 0;
+  height: 60px;
+  background-color: #272a41;
+  color: white;
+  text-align: justify;
+}
+footer p {
+  padding-top: 20px;
+  text-align: center;
+}

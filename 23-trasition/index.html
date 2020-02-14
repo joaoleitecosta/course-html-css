@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--doctype informa a versao do html que deve ser reinderizada-->
+<html lang="pt-br">
+  <head>
+    <title>pagina de exemplo de estrutura basica</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Joao Leite" />
+    <meta name="description" content="lista de documentos" />
+    <meta name="keywords" content="HTML5, CSS" />
+    <style>
+      div{
+        width: 100px;
+        height: 100px;
+        background-color: orange;
+      
+        transition-property: width, height, background-color;
+        transition-duration: 1s;
+        transition-timing-function: eascubic-bezier(.47,-0.55,.1,1.42);
+        transition-delay: 0s, .5s, .3s;
+      }
+      div:hover{
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+     <h1>Estrutura basica</h1>
+     <div></div>
+  </body>
+</html>

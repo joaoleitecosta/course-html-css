@@ -1,0 +1,61 @@
+# --seleciona o css pelo id,
+. --seleciona pela class
+
+padding ---esparçamento interno do elemento
+margin ---espaçamento exteno do elemento
+
+---------------------------------------------------------------------------- 
+margin: 0px    100px   0px      20px;
+         ^       ^      ^        ^
+        top    right  bottom    left
+ 
+margin: 0px          100px  
+         ^            ^     
+    top/bottom    right/left   
+--------------------------------------------------------------------------
+
+ border-bottom-color: red; 
+ border-bottom-width: 5px;
+ border-bottom-style: dotte
+
+border: 2px    solid     black;  
+          ^      ^         ^        
+        size   style     color
+
+-------------------------------------------------------------------------------
+
+
+text-decoration: black  solid underline;
+                   ^      ^       ^ 
+                 color  style    line
+
+-------------------------------------------------------------------------------
+
+text-shadow: 1px               0              4px         yellow
+              ^                ^               ^            ^
+    joga a sobra p/ right    sombra bottom   blur-radius    color
+
+-------------------------------------------------------------------------------
+
+box-shadow: 0px     0px    14px             20px       rgba(0, 0, 0,    4);
+             ^       ^       ^                ^                ^         ^
+            right bottom   esfumaçamento  espessura         color     opacidade
+
+
+--------------------------------------------------------------------------
+
+
+
+valores de display
+
+line-box --faz com que possa ser aplicado propriedade de model box sem gerar quebra de linha
+block    --faz o elemento tenha comportamento de model box
+nome     --retira o elemento do html
+
+---------------------------------------------------------------------------
+
+box-sizing: boder-box --nao altera o tamanho do elemento com padding
+
+--------------------------------------------------------------------------
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--doctype informa a versao do html que deve ser reinderizada-->
+<html lang="pt-br">
+  <head>
+    <title>pagina de exemplo de table</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Joao Leite" />
+    <meta name="description" content="lista de documentos" />
+    <meta name="keywords" content="HTML5, CSS" />
+    <style>
+      body{
+        font-family: sans-serif;
+      }
+      table{
+        border-collapse: collapse;
+        width: 80%;
+        margin: auto;
+        background-color: rgb(233, 235, 230);
+      }
+      td{
+        border: 1px black solid;
+        text-align: center;
+        padding: 10px;
+      }
+      th{
+        padding: 15px;
+        background-color: cadetblue;
+        border: 2px solid chocolate;
+      }
+      .td-footer{
+        
+      }
+    </style>
+  </head>
+  <body>
+   <table>
+     <caption>Tabela de preço de cursos</caption>
+     <thead>
+       <tr>
+         <th>Área</th>
+         <th>Curso</th>
+         <th>Investimento</th>
+       </tr>
+     </thead>
+     <tfoot>
+        <tr>
+          <td colspan="3">Valores sujeitos a alteração sem aviso previo</td>
+        </tr>
+     </tfoot>
+     <tbody>
+       <tr>
+         <td rowspan="3">Design</td>
+         <td>InDisign</td>
+         <td>1.000,0</td>
+       </tr>
+       <tr>
+        <td>Inlustration</td>
+        <td>1.000,0</td>
+      </tr>
+       <tr>
+        <td>Photoshop</td>
+        <td>1.000,0</td>
+      </tr>
+      <tr>
+        <td rowspan="4">Desenvolvimento</td>
+        <td>HTML</td>
+        <td>1.000,0</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>1.000,0</td>
+      </tr>
+      <tr>
+        <td>Javascript</td>
+        <td>1.000,0</td>
+      </tr>
+      <tr>
+        <td>ReactJs</td>
+        <td>1.000,0</td>
+      </tr>
+     </tbody>
+   </table>
+  </body>
+</html>

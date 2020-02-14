@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--doctype informa a versao do html que deve ser reinderizada-->
+<html lang="pt-br">
+  <head>
+    <title>pagina de exemplo de estrutura basica</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Joao Leite" />
+    <meta name="description" content="lista de documentos" />
+    <meta name="keywords" content="HTML5, CSS" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+      }
+      html body,
+      #root {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        background: #e5e6f0;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      body,
+      input,
+      button {
+        font-family: "Roboto", sans-serif;
+      }
+      header {
+        background-color: blue;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      nav {
+        background-color: red;
+        width: 200px;
+        float: left;
+        min-height: 790px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      section {
+        background-color: aqua;
+        min-height: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      footer {
+        background-color: blueviolet;
+        height: 50px;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>cabeçalho</h1>
+    </header>
+    <nav>
+      <h1>menu</h1>
+    </nav>
+    <section>
+      <h1>corpo</h1>
+    </section>
+    <footer>
+      <h1>rodape</h1>
+    </footer>
+  </body>
+</html>

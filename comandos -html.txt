@@ -1,0 +1,41 @@
+<p> ---> paragrafo
+<b> ---> negrito
+<i> ---> italico
+<em> --> italico semantico
+<strong> ----> negrito semantico (importante)
+<ul> ---lista não ordenada
+  <li>---->itens da lista
+  <li>
+<ul>  
+
+<ol>----> lista ordenada(numero os eslementos)
+  <li>..</li> ---itens da lista
+  <li>..</li>
+</ol>  
+
+<a>link</a> ----tag link
+target --->abre o link em outra aba
+
+<br> ---> quebra linha
+<hr> ---> quebra linha e coloca uma linha
+-------------------------------------------------------------------
+#tags com semantica
+
+<header> --tag de cabeçalho
+<nav>    --tag left para menu de navegação
+<main>   --tag do corpo princial da pagina
+<footer> --tag do rodapé da pagima
+<section> --tag que representa uma sesao da pagina(divide o conteudo em blocos)
+<article> --tag de conteudo princial(mais importante)
+<aside>   --tag para conteudo a parte do pagina(area de propragando por exemplo)
+
+
+#tag não semanticas
+<div>     --tag generica para delimitar blocos na pagina
+<spam>    --tag para dá destaque em uma parte do texto
+
+-----------------------------------------------------------------------
+
+div, h, p, ul, li    --sao elementos que geram quebra de linha
+
+b, em, a, span, strong, img --sao elemento a nivel de linha(nao geram quebra de linha, nao se aplica propriedade de model box)

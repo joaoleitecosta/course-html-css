@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--doctype informa a versao do html que deve ser reinderizada-->
+<html lang="pt-br">
+  <head>
+    <title>Listas em HTML</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Joao Leite" />
+    <meta name="description" content="lista de documentos" />
+    <meta name="keywords" content="HTML5, CSS" />
+    <style>
+      li ul {
+        height: 0;
+  
+        transition: height 0.5s;
+      }
+      
+     li:hover ul{
+        background-color: blueviolet;
+        height: 50px;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Item 1</li>
+      <li>
+        Item 2
+        <ul>
+          <li>Item 2.1
+            <ul>
+              <li>Item 2.1.1</li>
+              <li>Item 2.1.2</li>
+              <li>Item 2.1.3</li>
+            </ul>
+          </li>
+          <li>Item 2.1</li>
+        </ul>
+      </li>
+      <li>Item 3</li>
+    </ul>
+    <hr />
+
+    <dl>
+      <dt>HTML</dt>
+      <dd>Linguagem de marcação de hypertexto</dd>
+
+      <dt>CSS</dt>
+      <dd>Linguagem para criação de folhas de estilo</dd>
+    </dl>
+    <hr />
+    <dl>
+      <dt>www</dt>
+      <dt>intenet</dt>
+      <dd>Rede mudial de computadores</dd>
+
+      <dt>Javascript</dt>
+      <dd>Linguagem script para internet</dd>
+      <dd>script para rodar no browser e servidor</dd>
+    </dl>
+  </body>
+</html>
