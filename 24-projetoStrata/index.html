@@ -18,7 +18,7 @@
 
 <body>
   <header class="main-header">
-    <a href="#" class="main-header-link">
+    <a href="#" class="main-header-link image-link">
       <img src="./images/avatar.jpg" alt="avatar" />
     </a>
     <h1 class="main-header-title">
@@ -44,48 +44,54 @@
     </section>
     <section class="main-content-section">
       <h3>Recent Works</h3>
-      <article class="recent-works-card">
-        <a href="./images/fulls/01.jpg">
-          <img src="./images/thumbs/01.jpg" alt="carro estacionado" />
-        </a>
-        <p class="recent-works-card-title">Magna sed consequat tempus</p>
-        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-      </article>
-      <article class="recent-works-card">
-        <a href="./images/fulls/02.jpg">
-          <img src="./images/thumbs/02.jpg" alt="carro estacionado" />
-        </a>
-        <p class="recent-works-card-title">Magna sed consequat tempus</p>
-        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-      </article>
-      <article class="recent-works-card">
-        <a href="./images/fulls/03.jpg">
-          <img src="./images/thumbs/03.jpg" alt="carro estacionado" />
-        </a>
-        <p class="recent-works-card-title">Magna sed consequat tempus</p>
-        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-      </article>
-      <article class="recent-works-card">
-        <a href="./images/fulls/04.jpg">
-          <img src="./images/thumbs/04.jpg" alt="carro estacionado" />
-        </a>
-        <p class="recent-works-card-title">Magna sed consequat tempus</p>
-        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-      </article>
-      <article class="recent-works-card">
-        <a href="./images/fulls/05.jpg">
-          <img src="./images/thumbs/05.jpg" alt="carro estacionado" />
-        </a>
-        <p class="recent-works-card-title">Magna sed consequat tempus</p>
-        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-      </article>
-      <article class="recent-works-card">
-        <a href="./images/fulls/06.jpg">
-          <img src="./images/thumbs/06.jpg" alt="carro estacionado" />
-        </a>
-        <p class="recent-works-card-title">Magna sed consequat tempus</p>
-        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-      </article>
+      <div class="row">
+        <div class="col-2">
+          <article class="recent-works-card">
+            <a class="image-link" href="./images/fulls/01.jpg">
+              <img src="./images/thumbs/01.jpg" alt="carro estacionado" />
+            </a>
+            <p class="recent-works-card-title">Magna sed consequat tempus</p>
+            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+          </article>
+          <article class="recent-works-card">
+            <a class="image-link" href="./images/fulls/02.jpg">
+              <img src="./images/thumbs/02.jpg" alt="carro estacionado" />
+            </a>
+            <p class="recent-works-card-title">Magna sed consequat tempus</p>
+            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+          </article>
+          <article class="recent-works-card">
+            <a class="image-link" href="./images/fulls/03.jpg">
+              <img src="./images/thumbs/03.jpg" alt="carro estacionado" />
+            </a>
+            <p class="recent-works-card-title">Magna sed consequat tempus</p>
+            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+          </article>
+        </div>
+        <div class="col-2">
+          <article class="recent-works-card">
+            <a class="image-link" href="./images/fulls/04.jpg">
+              <img src="./images/thumbs/04.jpg" alt="carro estacionado" />
+            </a>
+            <p class="recent-works-card-title">Magna sed consequat tempus</p>
+            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+          </article>
+          <article class="recent-works-card">
+            <a class="image-link" href="./images/fulls/05.jpg">
+              <img src="./images/thumbs/05.jpg" alt="carro estacionado" />
+            </a>
+            <p class="recent-works-card-title">Magna sed consequat tempus</p>
+            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+          </article>
+          <article class="recent-works-card">
+            <a class="image-link" href="./images/fulls/06.jpg">
+              <img src="./images/thumbs/06.jpg" alt="carro estacionado" />
+            </a>
+            <p class="recent-works-card-title">Magna sed consequat tempus</p>
+            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+          </article>
+        </div>
+      </div>
       <a href="#" title="Veja Portifolio completo" class="button-default">Veja Portifolio completo</a>
     </section>
     <section class="main-content-section">
@@ -144,20 +150,17 @@
       </p>
       <blockquote cite="https://www.huxley.net/bnw/four.html">
         Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.
-
       </blockquote>
       <p></p>When Dave asks HAL to open the pod bay door, HAL answers: <q
         cite="https://www.imdb.com/title/tt0062622/quotes/qt0396921">I'm sorry, Dave. I'm afraid I can't do that.</q>
       </p>
 
       <h4>Pre Format</h4>
-      <pre>
-        <code>
-&lt;script&gt
+      <pre><code>
+  &lt;script&gt
      alert('Hello') 
-&lt;/script&gt     
-        </code>
-      </pre>
+  &lt;/script&gt     
+        </code></pre>
 
       <h4>List</h4>
       <div class="row">
@@ -374,47 +377,70 @@
       <div class="gallery-img">
         <img src="./images/fulls/01.jpg" alt="image main">
       </div>
-      <div class="gallery-thumb>">
+      <div class="gallery-thumb">
         <img src="./images/thumbs/01.jpg" alt="image 1">
         <img src="./images/thumbs/02.jpg" alt="image 2">
         <img src="./images/thumbs/03.jpg" alt="image 3">
         <img src="./images/thumbs/04.jpg" alt="image 4">
         <img src="./images/thumbs/05.jpg" alt="image 5">
         <img src="./images/thumbs/06.jpg" alt="image 6">
+        <img src="./images/thumbs/01.jpg" alt="image 1">
+        <img src="./images/thumbs/02.jpg" alt="image 2">
+        <img src="./images/thumbs/03.jpg" alt="image 3">
       </div>
 
       <h4>Left &amp; Right</h4>
+      <div class="row">
+        <p>
+          <img src="./images/avatar.jpg" alt="avatar" class="img-left" />Fringilla nisl. Donec accumsan interdum nisi,
+          quis tincidunt felis sagittis eget. tempus euismod. Vestibulum
+          ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan
+          eu
+          faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante
+          ipsum
+          primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
+          faucibus.
+          Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus
+          euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+          adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus
+          euismod.
+          Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+          adipiscing
+          accumsan eu faucibus. Integer ac pellentesque praesent.
+        </p>
 
-      <p>
-        <img src="./images/avatar.jpg" alt="avatar" class="img-left" />Fringilla nisl. Donec accumsan interdum nisi,
-        quis tincidunt felis sagittis eget. tempus euismod. Vestibulum
-        ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
-        faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum
-        primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
-        Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus
-        euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
-        adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod.
-        Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing
-        accumsan eu faucibus. Integer ac pellentesque praesent.
-      </p>
-
-      <p>
-        <img src="./images/avatar.jpg" alt="avatar" class="img-right" /> nisl. Donec accumsan interdum nisi, quis
-        tincidunt felis sagittis eget. tempus euismod. Vestibulum
-        ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
-        faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum
-        primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
-        Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus
-        euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
-        adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod.
-        Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing
-        accumsan eu faucibus. Integer ac pellentesque praesent.
-      </p>
+        <p>
+          <img src="./images/avatar.jpg" alt="avatar" class="img-right" /> nisl. Donec accumsan interdum nisi, quis
+          tincidunt felis sagittis eget. tempus euismod. Vestibulum
+          ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan
+          eu
+          faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante
+          ipsum
+          primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
+          faucibus.
+          Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus
+          euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+          adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus
+          euismod.
+          Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+          adipiscing
+          accumsan eu faucibus. Integer ac pellentesque praesent.
+        </p>
+      </div>
     </section>
     </section>
   </main>
   <footer class="main-footer">
-
+    <ul class="ul-icons">
+      <li><a href="#" class="icon-link"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#" class="icon-link"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#" class="icon-link"><i class="fab fa-github"></i></a></li>
+      <li><a href="#" class="icon-link"><i class="far fa-envelope"></i></a></li>
+    </ul>
+    <ul class="copyright">
+      <li>Untitled |</li>
+      <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    </ul>
   </footer>
 </body>
 

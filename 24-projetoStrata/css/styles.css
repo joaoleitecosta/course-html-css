@@ -132,6 +132,9 @@ textarea:focus {
   font-size: 1.8em;
   color: #49bf9d;
 }
+.image-link {
+  border: none;
+}
 .main-header {
   position: fixed;
   top: 0;
@@ -145,6 +148,7 @@ textarea:focus {
   background-size: auto, cover;
   text-align: right;
 }
+
 .main-header-title {
   font-size: 22px;
   line-height: 1.5;
@@ -160,6 +164,10 @@ textarea:focus {
 .main-header-link {
   color: inherit;
 }
+.main-header-link img {
+  border-radius: 50%;
+  overflow: hidden;
+}
 
 .main-header-link:hover {
   color: #49bf9d;
@@ -171,9 +179,68 @@ textarea:focus {
   padding: 124px 54px 72px;
   box-sizing: border-box;
 }
+.recent-works-card a img {
+  width: 100%;
+  border-radius: 10px;
+}
+.gallery-img img {
+  width: 100%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+.gallery-thumb {
+  overflow: auto;
+}
+.gallery-thumb img {
+  border-radius: 5px;
+  width: 32%;
+  float: left;
+  margin-bottom: 2%;
+}
+
+.gallery-thumb img:nth-child(3n -1) {
+  margin: 0 2%;
+}
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  width: 35%;
+  left: 0;
+  padding: 0 54px 100px 0;
+  box-sizing: border-box;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.5);
+}
+.ul-icons {
+  list-style: none;
+}
+.icon-link {
+  border: none;
+}
+.icon-link i {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 24px;
+  transition: color 0.5s;
+}
+.icon-link i:hover {
+  color: #49bf9d;
+}
+.copyright {
+  float: right;
+  list-style: none;
+}
+.copyright li {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.copyright li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 /*Grid*/
 .row {
-  overflow: auto;
+  overflow: hidden;
 }
 .col-2 {
   width: 49%;
@@ -205,6 +272,7 @@ textarea:focus {
   font-size: 0.8em;
   display: inline-block;
   width: auto;
+  transition: all 0.5s;
 }
 .button-default-stroke {
   background-color: white;
@@ -258,4 +326,13 @@ textarea:focus {
 .table tfoot tr td:last-child {
   border-left: 1px solid #ddd;
   background-color: #eee;
+}
+
+.img-left {
+  float: left;
+  margin-right: 10px;
+}
+.img-right {
+  float: right;
+  margin-left: 10px;
 }
