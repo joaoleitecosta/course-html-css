@@ -189,3 +189,12 @@ h5 {
   }
 
 }
+/* 1000px / 16 = 62.5*/
+@media screen and (min-width: 62.5em) {
+  .top-content {
+    background-color: #521a66;
+    background-image: url("../images/bg_topo_1198x670.jpg");
+    height: 15em;
+    padding-top: 15em;
+  }
+}
