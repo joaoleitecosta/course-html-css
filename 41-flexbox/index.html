@@ -53,6 +53,72 @@
               padding: 0;
 
             }
+            .flexbox:nth-child(8) div{
+                background-color: red;
+                flex-basis: 50px;
+                height: 50px;
+            }
+            .flexbox:nth-child(8){
+              justify-content: center;
+              align-items: center;
+
+            }
+            .flexbox:nth-child(9) div{
+                background-color: blue;
+                flex-basis: 50px;
+                height: 50px;
+            }
+            .flexbox:nth-child(9) div:nth-child(2){
+              flex-grow: 2; /*pega o espaço que está sobrando e aplica ao elemento*/
+            }
+            .flexbox:nth-child(9) div:nth-child(4){
+              flex-grow: 1; /*pega o espaço que está sobrando e aplica ao elemento*/
+            }
+            .flexbox:nth-child(10) div{
+                background-color: yellow;
+                flex-basis: 300px; /* corresponde a largura do elemento*/
+                height: 50px;
+            }
+            .flexbox:nth-child(10) div:nth-child(2){
+              flex-shrink: 2; /*diminui o elemeto caso não tenha espaço*/
+            }
+            .flexbox:nth-child(10) div:nth-child(2){
+              flex-shrink: 2; /*pdiminui o elemeto caso não tenha espaço*/
+              /* grow shrink basis*/
+              flex: 1 0 100px;
+            }
+            .flexbox:nth-child(11) div{
+                background-color: yellow;
+                flex-basis: 300px; /* corresponde a largura do elemento*/
+                height: 50px;
+            }
+            .flexbox:nth-child(11) div:nth-child(1){
+                order: 1;
+            }
+            .flexbox:nth-child(12){
+                align-items: flex-start;
+            }
+            .flexbox:nth-child(12) div:nth-child(2){
+                align-self: flex-end;
+            }
+            .flexbox:nth-child(12) div:nth-child(3){
+                align-self: center;
+            }
+            .flexbox:nth-child(12) div:nth-child(1){
+                align-self: stretch;
+            }
+            .flexbox:nth-child(13){
+                justify-content: center;
+                align-items: center;
+               flex-direction: column;
+               height: 500px;
+            }
+            .flexbox:nth-child(13) div{
+               flex-basis: 50px;
+            }
+            .flexbox:nth-child(13) div:nth-child(2){
+            
+            }
             
         </style>
     </head>
@@ -85,7 +151,42 @@
             <div class="div3">3</div>
             <div class="div4">4</div>
         </div>
-        
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
         
     </body>
 </html>
