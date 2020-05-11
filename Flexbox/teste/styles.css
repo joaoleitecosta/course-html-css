@@ -1,0 +1,30 @@
+html,
+body,
+#app {
+  height: 100vw;
+  margin: 0;
+}
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; /* controla a direção dos elementos */
+  align-items: center; /* alinha ao eixo contratrio do flex-direction */
+  align-content: space-between; /* ativa somente com o wrap e mais de uma linha */
+  justify-content: space-between; /* alinha no mesmo eixo do flex-direction */
+  /*
+   * space-between - divide o espaço por igual entre os elementos sem colocar espaço no inicio e fim,
+   * space-around  - divide o espaço por igual entre os elementos, mas coloca a metade desse espaço entre no inicio e fim,
+   * space-evenly  - divide o spaço entre os elementos, inicio e fim
+   */
+}
+.box {
+  background-color: red;
+  height: 60px;
+  width: 250px;
+  margin: 5px;
+  color: #fff;
+  order: 1; /* order dos elementos */
+  /*flex-shrink: 0; com 0 não permite que o elemeto seja expremido para daber na tela, mas cria a barra de rolagem caso o elemente ultrapasse o tamanho da tela */
+  /*flex-grow: 1; com 1 estica o elemento par cobrir todo o elemento pai */
+  /*flex: 1 0;  o primeiro é o grow e o segindo é shrick */
+}

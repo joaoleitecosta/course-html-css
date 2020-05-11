@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--doctype informa a versao do html que deve ser reinderizada-->
+<html lang="pt-br">
+  <head>
+    <title>pagina de exemplo de estrutura basica</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Joao Leite" />
+    <meta name="description" content="lista de documentos" />
+    <meta name="keywords" content="HTML5, CSS" />
+    <style>
+      .div1{
+        width: 150px;
+        height: 150px;
+        background: red;
+        transform: translate(50px, 50px);
+      }
+      .div2{
+        width: 150px;
+        height: 150px;
+        background: yellow;
+        position: relative;
+        left: 50%;
+      }
+      .div3{
+        width: 50%;
+        overflow: hidden;
+        border: 2px solid black;
+      }
+      .div3-interna{
+        background: blue;
+        transform: translate(80%, 60%);
+      }
+      .div4{
+        width: 50%;
+        overflow: hidden;
+        border: 2px solid black;
+      }
+      .div4-interna{
+        background: blue;
+        transform: rotate(30deg);
+      }
+      .div5{
+        width: 50%;
+        overflow: hidden;
+        border: 2px solid black;
+      }
+      .div5-interna{
+        background: blue;
+        transform: rotate(50deg);
+        transform-origin: left top;
+      }
+      .div6{
+        width: 50%;
+        overflow: hidden;
+        border: 2px solid black;
+      }
+      .div6-interna{
+        background: blue;
+        transform: rotate(50deg);
+      }
+    </style>
+  </head>
+  <body>
+   <div class="div1">div1</div>
+   <div class="div2">div1</div>
+   <hr>
+   <div class="div3">
+   <div  class="div3-interna">Conteudo qualquer</div>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Sed maximus neque justo, vitae consequat massa molestie at.
+      Donec vitae finibus risus. Praesent et lacus rhoncus,</p>
+   </div>
+   <hr>
+   <div class="div4">
+    <div  class="div4-interna">Conteudo qualquer</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+       Sed maximus neque justo, vitae consequat massa molestie at.
+       Donec vitae finibus risus. Praesent et lacus rhoncus,</p>
+    </div>
+    <div class="div5">
+      <div  class="div5-interna">Conteudo qualquer</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+         Sed maximus neque justo, vitae consequat massa molestie at.
+         Donec vitae finibus risus. Praesent et lacus rhoncus,</p>
+      </div>
+      <div class="div6">
+        <div  class="div6-interna">Conteudo qualquer</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+           Sed maximus neque justo, vitae consequat massa molestie at.
+           Donec vitae finibus risus. Praesent et lacus rhoncus,</p>
+        </div>
+  </body>
+</html>
